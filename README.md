@@ -7,4 +7,4 @@ Why I used this sequence:
  
 Process:
 
-  There are 10^4 7 digit palindromes and after finding out which ones are prime it widdled down possible solutions to 668. I added each possible 7 digit prime palindrome to a set for quick lookup. The next step was to simply iterate through a splice of the string of pi. First I had to remove the period, but after that this was a simple lookup in our constructed set of possibilities. I found the solution on the 13,901 th iteration with a solution of 9149419.
+  There are 10^4 7-digit palindromes and after finding out which ones are prime it widdled down possible solutions to 668. I added each possible 7 digit prime palindrome to a set for quick lookup. The next step was to simply iterate through a splice of the string of pi. First I had to remove the period, but after that this was a simple lookup in our constructed set of possibilities. I found the solution on the 13,901 th iteration with a solution of 9149419.
