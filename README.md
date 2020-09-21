@@ -3,7 +3,7 @@ Coding Challenge Problems for Best Buy Application
 
 Why I used this sequence:
 
-  Since worst case for prime is N(when it is prime) and best case is just one division, I figured this would be the big bottleneck in the program. Doing some research I saw that there are 664,579 prime numbers below 10,000,000(https://primes.utm.edu/howmany.html). I figured instead of checking if every number is prime and palindromic, I would instead generate a set of all the 10^4 7 digit palindromes, create a set of all primes within this set, then iterate through pi and see if our 7 digit string was a member of the set. 
+  Since worst case for prime is N(when it is prime) and best case is just one division, I figured this would be the big bottleneck in the program. Doing some research I saw that there are 664,579 prime numbers below 10,000,000(https://primes.utm.edu/howmany.html). I figured instead of checking if every number is prime and palindromic, I would instead generate a set of all the 10^4 7 digit palindromes, create a set of all primes within this set, then iterate through pi and see if our 7 digit string was a member of the 7-digit prime palindromic set. 
  
 Process:
 
